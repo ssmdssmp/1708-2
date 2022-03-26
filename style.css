@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+html, body {
+    padding:0;
+    margin:0;
+}
+
+
+nav{
+    backdrop-filter: blur(9px) saturate(200%);
+    -webkit-backdrop-filter: blur(9px) saturate(200%);
+    background-color: rgba(189, 39, 248, 0.5);
+    /* border-radius: 12px; */
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    width: 100%;
+    left:0;
+    top:0;
+    position:fixed;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items:center;
+    z-index: 2;
+}
+.logo{
+
+    color:white;
+    margin-left:50px;
+    /* font-size: 30px; */
+    font-weight: 700;
+}
+.logo img {
+    height: 50px;
+    
+}
+nav ul {
+    
+    list-style:none;
+    display: flex;
+    width: 700px;
+    justify-content: space-around;
+    
+}
+
+nav a li{
+    font-family: 'Oswald', sans-serif;  
+    font-size: 17px;
+    color:white;
+    text-transform: uppercase;
+    white-space: nowrap;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 150px;
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    transition:0.3s;
+}
+nav a:hover{
+    -webkit-backdrop-filter: blur(9px) saturate(200%);
+    background-color: rgba(215, 113, 255, 0.5);
+    
+}
+
+
+.intro{
+    margin-top:70px;
+    /* height:600px; */
+    display: flex;
+}
+.intro-info{
+    background-color: black;
+    width: 450px;
+    /* background-image: url("full.jpeg"); */
+    background-size:cover;
+    max-height: 600px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-left:50px;
+    backdrop-filter: blur(8px);
+ 
+}
+.intro-info-location{
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.intro-info-title h1{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+}
+.intro-video video{
+    height: 600px;
+    width: 900px;
+    object-fit:fill;
+    filter:hue-rotate(290deg);
+}
+.intro-info-buttons{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.intro-info-buttons button{
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    font-size: 17px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    background-color: #cf3dfc;
+    color:white;
+}
+.intro-info-buttons button:hover{
+    background-color: #d753ff;
+}
