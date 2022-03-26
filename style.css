@@ -73,15 +73,15 @@ nav a:hover{
 }
 .intro-info{
     background-color: black;
-    width: 450px;
+    width: 500px;
     /* background-image: url("full.jpeg"); */
     background-size:cover;
-    max-height: 600px;
+    height: 600px;
     display: flex;
     justify-content: end;
     flex-direction: column;
     padding-bottom: 50px;
-    padding-left:50px;
+    padding-left:20px;
     backdrop-filter: blur(8px);
  
 }
@@ -95,11 +95,15 @@ nav a:hover{
     color:white;
     font-family: 'Oswald', sans-serif;
 }
-.intro-video video{
-    height: 600px;
-    width: 900px;
-    object-fit:fill;
+.intro-img {
+    
     filter:hue-rotate(290deg);
+}
+.intro-img img{
+    height: 650px;
+    width: 950px;
+    object-fit:cover;
+
 }
 .intro-info-buttons{
     width: 350px;
@@ -110,7 +114,7 @@ nav a:hover{
     cursor: pointer;
     height: 60px;
     width: 150px;
-    font-size: 17px;
+    font-size: 18px;
     text-transform: uppercase;
     border: none;
     border-radius: 3px;
